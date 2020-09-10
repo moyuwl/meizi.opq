@@ -28,7 +28,7 @@ function ReceiveGroupMsg(CurrentQQ, data)
         {
             toUser = data.FromGroupId,
             sendToType = 2,
-            sendMsgType = "TextMsg", 
+            sendMsgType = "PicMsg", 
             groupid = 0,
             content = text,
             picUrl = url,
