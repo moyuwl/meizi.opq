@@ -13,7 +13,7 @@ function ReceiveGroupMsg(CurrentQQ, data)
     
     local idx = math.random(0, 130)
     idx = string.format('%04d', idx)
-    local url = "https://cdn.jsdelivr.net/gh/ipchi9012/cos_pics@latest/cos_" .. idx .. ".js`
+    local url = "https://cdn.jsdelivr.net/gh/ipchi9012/cos_pics@latest/cos_" .. idx .. ".js"
     log.info("url=%s", url)
     local resp = http.request("GET", url).body
     idx = string.find(resp, "(", 1, true)
